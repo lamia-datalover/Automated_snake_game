@@ -1,3 +1,19 @@
+# To my english lovers : 
+
+My project aims to develop a standard SNAKE game (playable using keyboard arrow keys) as well as an intelligent version using the A star (A*) algorithm. This algorithm enables the snake to find the quickest path to the fruit it needs to eat without touching obstacles. The path found is not necessarily predetermined.
+
+Through this application, players can select their desired game mode. They can choose to play against the computer using keyboard keys, play with a friend using keyboard keys, or select the intelligent option where the snake autonomously chooses its own path.
+
+My task involves creating graphical user interfaces (GUI) and developing the game in two modes: the standard option (playing using keyboard keys) and the intelligent option, which involves implementing the theoretical algorithm into a programming language.
+
+You can check the visual aspect of the application by looking at the pictures below, where you will find the menu of the game, the option mono player, the option bi-player, and finally the automated one with the A* algorithm that is used in pathfinding!
+
+Here is how the algorithm works!
+
+![image](https://github.com/lamia-datalover/Automated_snake_game/assets/145395677/7afe6f10-d9c1-48e9-9760-01fd6c7e57e7)
+
+If you understand French, I recommend you read what is written down. If you are still learning it or do not know this language, do not hesitate to reach out to me using lamiachekkaba.data@gmail.com !
+
 # Le but de ce projet : 
 Dans le cadre de la préparation du diplôme universitaire technique, je suis censée effectuer un Stage de fin d’étude pour faire un rapprochement entre la théorie enseignée au sein de l’école et la pratique.
 Mon projet  a pour but le développement d’un jeu SNAKE normal (possibilité de le jouer en utilisant les touches de directions du clavier) et intelligent en utilisant l’algorithme A star (A*) pour que le serpent puisse trouver le chemin vers le fruit qui doit manger d’une façon rapide sans toucher les obstacles, le chemin trouvé n’est pas forcé-ment.
