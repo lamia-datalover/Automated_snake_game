@@ -16,7 +16,7 @@ If you understand French, I recommend you read what is written down. If you are 
 
 # Le but de ce projet : 
 Dans le cadre de la préparation du diplôme universitaire technique, je suis censée effectuer un Stage de fin d’étude pour faire un rapprochement entre la théorie enseignée au sein de l’école et la pratique.
-Mon projet  a pour but le développement d’un jeu SNAKE normal (possibilité de le jouer en utilisant les touches de directions du clavier) et intelligent en utilisant l’algorithme A star (A*) pour que le serpent puisse trouver le chemin vers le fruit qui doit manger d’une façon rapide sans toucher les obstacles, le chemin trouvé n’est pas forcé-ment.
+Mon projet  a pour but le développement d’un jeu SNAKE normal (possibilité de le jouer en utilisant les touches de directions du clavier) et intelligent en utilisant l’algorithme A star (A*) pour que le serpent puisse trouver le chemin vers le fruit qui doit manger d’une façon rapide sans toucher les obstacles.
 A travers cette application, il est possible au joueur de sélectionner le mode de jeu souhaité (si l’utilisateur veut jouer contre le PC en utilisant les touches du clavier, jouer avec un ami en utilisant les touches du clavier aussi ou choisir l’option intelligente qui permet de regarder le serpent choisir son propre chemin).
 Mon travail consiste donc à créer des interfaces graphiques (GUI) et de développer le jeu option normale (c’est-à-dire jouer en utilisant les touches du clavier) et en option intelligente qui est la traduction de l’algorithme théorique en language de programmation.
 
