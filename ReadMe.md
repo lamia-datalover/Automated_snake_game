@@ -82,21 +82,19 @@ Le « PATHFINDING » est un domaine de l'informatique qui étudie les différent
 PS : Il ne donne pas toujours la solution optimale mais il donne très rapidement une bonne solution. Contrairement à celui de DIJKSTRA qui donne la solution avec le moindre coût. Mais il n’est pas aussi rapide que A*.
 # Où trouvons-nous A* ??
 On le trouve dans plusieurs domaines :
-  o	Jeux vidéo :  
-  •	Animation des personnages non joueurs. 
-  •	Déplacement réaliste d’un personnage contrôlé par le joueur vers un objectif désigné par le joueur. 
-  o	Simulation / vie artificielle :  Etude du comportement d’une foule, du trafic automobile
+  	Déplacement réaliste d’un personnage contrôlé par le joueur vers un objectif désigné par le joueur. 
+  	Simulation / vie artificielle :  Etude du comportement d’une foule, du trafic automobile
    Effets spéciaux (scènes de bataille, …) .
 # Vocabulaires nécessaire à savoir:
-  o	Le graphe: ensemble des nœuds et des arcs. 
-  o	Un nœud: c'est une unité du graphe, l'algorithme va parcourir le graphe en passant des nœuds. 
-  o	La liste ouverte: C'est une liste qui contient les nœuds à analyser. 
-  o	La liste fermée: C'est une liste qui contient les nœuds déjà analysés.
+  Le graphe: ensemble des nœuds et des arcs. 
+  Un nœud: c'est une unité du graphe, l'algorithme va parcourir le graphe en passant des nœuds. 
+  La liste ouverte: C'est une liste qui contient les nœuds à analyser. 
+  La liste fermée: C'est une liste qui contient les nœuds déjà analysés.
   Pour chaque nœuds on a les propriétés suivante : 
-  o	Parent (P): il s'agit du prédécesseur du nœud courant. 
-  o	G: il s'agit de la distance parcourue depuis le point de départ pour arriver au nœud courant (Coût depuis la source). 
-  o	H: il s'agit de la distance à vol d'oiseau entre le nœud courant et le nœud d'arrivée (Coût vers la destination). 
-  o	Poids(F): Coût depuis la source (G) + Coût vers la destination (H) 
+  Parent (P): il s'agit du prédécesseur du nœud courant. 
+  G: il s'agit de la distance parcourue depuis le point de départ pour arriver au nœud courant (Coût depuis la source). 
+  H: il s'agit de la distance à vol d'oiseau entre le nœud courant et le nœud d'arrivée (Coût vers la destination). 
+  Poids(F): Coût depuis la source (G) + Coût vers la destination (H) 
 
 # Algorithme de A*:
 
